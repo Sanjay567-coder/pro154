@@ -19,7 +19,7 @@ AFRAME.registerComponent("fish", {
       fishEl.setAttribute("position", position);
       fishEl.setAttribute("rotation", { x: 0, y: 180, z: 0 });
   
-      fishEl.setAttribute("scale", { x: 0.3, y: 0.3, z: 0.3 });
+      fishEl.setAttribute("scale", { x: 0.15, y: 0.15, z: 0.15 });
   
       fishEl.setAttribute("gltf-model", "./assets/fish/scene.gltf");
   
